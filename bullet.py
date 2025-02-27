@@ -1,5 +1,6 @@
 from variables import *
 
+
 class Bullet:
      def __init__(self, x, y, speed =-12):
           self.image = pygame.transform.scale(bullet_img, (10, 20))
@@ -15,3 +16,6 @@ class Bullet:
 
      def draw(self):
           screen.blit(self.image, (self.x, self.y))
+
+     def add(x):
+          return x
